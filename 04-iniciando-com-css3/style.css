@@ -15,14 +15,59 @@
 
 .main_blog article {
     flex-basis: calc(50% - 40px - 20px);
-    padding: 20px;
+    padding: 10px 20px;
     background-color: #333;
     color: #fff;
     margin: 20px 0;
-    border-radius: 10px;
 }
 .main_blog article p {
     font-size: 1.1em;
+}
+
+.title_medium_lightgray {
+    color: #ccc;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.radius {
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-weight: normal;
+    margin: 0 4px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn_green {
+    background-color: #009933;
+    color: #fff;
+}
+
+.btn_green:hover {
+    background-color: #00cc66;
+}
+
+.btn_red {
+    background-color: #cc0000;
+    color: #fff;
+}
+
+.btn_red:hover {
+    background-color: #ff3333;
 }
 
 @media(max-width: 640px) {
