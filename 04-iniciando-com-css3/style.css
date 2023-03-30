@@ -1,5 +1,14 @@
-p {
-    font-size: 2em;
-    color: blue;
-    background-color: aquamarine;
+.main_blog {
+    width: 800px;
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.main_blog article {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
 }
