@@ -6,3 +6,8 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
