@@ -407,11 +407,95 @@
 /* ADDRESS */
 .main_school_address {
     flex-basis: 100%;
-    padding: 45px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
 .main_school_address h2 {
     font-size: 1.5em;
     margin-bottom: 5px;
+}
+
+/* MAIN TUTOR */
+.main_tutor {
+    width: 100%;
+    background-color: #2D3142;
+}
+
+.main_tutor_content {
+    max-width: calc(1300px - 80px);
+    padding: 40px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.main_tutor_content > header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.main_tutor_content_img {
+    margin: 20px auto;
+}
+
+.main_tutor_content_img img {
+    max-width: 200px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 3px;
+    background-color: #fff;
+}
+
+.main_tutor_content_history h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_tutor_content_history p {
+    margin-bottom: 20px;
+    font-size: 0.950em;
+}
+
+.main_tutor_content_network {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #d36833;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_tutor_content_network > header {
+    flex-basis: 100%;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_tutor_content_network > article {
+    flex-basis: 24%;
+}
+
+.main_tutor_content_network > article h3 {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.main_tutor_content_network > article h3 a {
+    background-color: #fff;
+    color: #d36833;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.main_tutor_content_network > article h3 a:hover {
+    background-color: #2D3142;
+    color: #fff;
 }
