@@ -531,7 +531,7 @@
 
 /* MAIN FOOTER */
 .main_footer {
-    padding: 40px 0;
+    padding: 40px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -749,6 +749,15 @@
     .main_tutor_content_network > article {
         flex-basis: 49%;
         margin-bottom: 20px;
+    }
+
+    .main_footer_our_pages, .main_footer_links {
+        flex-basis: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .main_footer_about {
+        flex-basis: 100%;
     }
 }
 
