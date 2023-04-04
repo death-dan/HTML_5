@@ -206,6 +206,7 @@
 
 .main_curse .main_curse_header {
     max-width: 1000px;
+    padding: 0 20px;
     margin: 0 auto;
     text-align: center;
     color: #333;
@@ -759,5 +760,18 @@
 
     .main_optin header h1 {
         font-size: 1.2em;
+    }
+
+    .main_curse .main_curse_header h1 {
+        font-size: 2em;
+    }
+
+    .main_curse .main_curse_header p {
+        font-size: 1em;
+    }
+
+    .main_curse_content article {
+        flex-basis: calc(100% - 40px);
+        margin: 10px 0;
     }
 }
