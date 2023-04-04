@@ -316,6 +316,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 20px;
 }
 
 .main_school_header {
@@ -675,6 +676,21 @@
     .main_optin header h1, .main_optin header p {
         text-align: center;
     }
+
+    .main_school_content_left {
+        flex-basis: 100%;
+    }
+
+    .main_school_content_right {
+        flex-basis: 200px;
+        max-width: 200px;
+        padding: 20px;
+    }
+
+    .main_school_address {
+        flex-basis: calc(100% - 200px);
+        margin: auto;
+    }
 }
 
 /* 768px */
@@ -709,6 +725,13 @@
 
     .main_curse_rating_title h2 {
         font-size: 2em;
+    }
+
+    .main_school_list > article {
+        flex-basis: 100%;
+        margin: 10px 0;
+        font-size: 0.9em;
+        line-height: 2em;
     }
 }
 
@@ -745,7 +768,7 @@
     }
 }
 
-/* 503px */
+/* 520px */
 @media (max-width: 32em) {
     .main_header .logo  {
         flex-basis: 220px !important;
@@ -800,10 +823,22 @@
         font-size: 1.8em;
     }
 
-    /* 460px */
-    @media (max-width: 28em) {
-        .main_optin header h1 {
-            font-size: 1.1em;
-        }
+    .main_school_content_right {
+        display: none;
+    }
+
+    .main_school_address {
+        flex-basis: 100%;
+    }
+}
+
+/* 460px */
+@media (max-width: 28em) {
+    .main_optin header h1 {
+        font-size: 1.1em;
+    }
+
+    .main_school_header h1 {
+        font-size: 2em;
     }
 }
