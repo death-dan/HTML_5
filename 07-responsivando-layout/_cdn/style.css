@@ -11,7 +11,6 @@
 .main_header .logo {
     flex-basis: 330px;
     padding: 20px;
-    width: 200px;
 }
 
 .main_header .main_header_menu {
@@ -584,7 +583,7 @@
 /* MENU MOBILE */
 .main_header_menu_mobile {
     flex-basis: calc(100% - 330px);
-    display: flex;
+    display: none;
     justify-content: flex-end;
 }
 
@@ -645,4 +644,70 @@
 .main_header_mobile_sub > li a:hover {
     background-color: #d36833;
     color: #fff;
+}
+
+/* MEDIAS MOBILE */
+/* 1024px */
+@media (max-width: 64em) { 
+    .main_cta_spacer h1 {
+        font-size: 2.5em;
+    }
+
+    .main_cta .main_cta_spacer {
+        padding: 100px 30px;
+    }
+}
+
+/* 768px */
+@media (max-width: 48em) {
+    .main_header_menu {
+        display: none !important;
+    }
+
+    .main_header_menu_mobile {
+        display: flex;
+    }
+
+    .main_cta .main_cta_spacer {
+        padding: 60px 30px;
+    }
+
+    .main_cta_spacer h1 {
+        font-size: 1.9em;
+    }
+
+    .main_cta p {
+        font-size: 1.7em;
+    }
+
+    .main_cta .btn {
+        font-size: 0.5em;
+    }
+}
+
+/* 503px */
+@media (max-width: 32em) {
+    .main_header .logo  {
+        flex-basis: 220px !important;
+    }
+
+    .main_header .logo img {
+        width: 100% !important;
+    }
+
+    .main_header_menu_mobile {
+        flex-basis: calc(100% - 220px) !important;
+    }
+    
+    .main_cta_spacer h1 {
+        font-size: 1.6em;
+    }
+
+    .main_cta p {
+        font-size: 1em;
+    }
+
+    .main_cta .btn {
+        font-size: 0.7em;
+    }
 }
