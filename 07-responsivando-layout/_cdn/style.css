@@ -733,6 +733,23 @@
         font-size: 0.9em;
         line-height: 2em;
     }
+
+    .main_tutor_content_network {
+        max-width: 80%;
+    }
+
+    .main_tutor_content_network h2 {
+        margin-bottom: 20px;
+    }
+
+    .main_tutor_content_network > header {
+        font-size: 1.2em;
+    }
+
+    .main_tutor_content_network > article {
+        flex-basis: 49%;
+        margin-bottom: 20px;
+    }
 }
 
 /* 640px */
@@ -764,6 +781,12 @@
     }
 
     .main_curse_rating_comment > article {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 36em) {
+    .main_tutor_content_network > article {
         flex-basis: 100%;
     }
 }
