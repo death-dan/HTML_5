@@ -612,7 +612,7 @@
     cursor: pointer;
 }
 
-.main_header_mobile_obj:hover {
+.main_header_mobile_obj:hover, .active {
     background-color: #fff;
 }
 
