@@ -275,6 +275,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 20px;
 }
 
 .main_curse_rating_comment > header {
@@ -705,6 +706,10 @@
     .main_blog article {
         flex-basis: calc(33% - 10px);
     }
+
+    .main_curse_rating_title h2 {
+        font-size: 2em;
+    }
 }
 
 /* 640px */
@@ -725,6 +730,18 @@
     .main_optin form button {
         margin: 0 auto;
         padding: 6px 12px;
+    }
+
+    .main_curse_rating_title h2 {
+        font-size: 1.6em;
+    }
+
+    .main_curse_rating_comment > header {
+        font-size: 1.2em;
+    }
+
+    .main_curse_rating_comment > article {
+        flex-basis: 100%;
     }
 }
 
@@ -773,5 +790,20 @@
     .main_curse_content article {
         flex-basis: calc(100% - 40px);
         margin: 10px 0;
+    }
+
+    .main_curse_rating_comment > header {
+        font-size: 1.2em;
+    }
+
+    .main_curse_rating_title h2 {
+        font-size: 1.8em;
+    }
+
+    /* 460px */
+    @media (max-width: 28em) {
+        .main_optin header h1 {
+            font-size: 1.1em;
+        }
     }
 }
