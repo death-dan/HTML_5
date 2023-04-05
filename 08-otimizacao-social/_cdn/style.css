@@ -794,6 +794,7 @@
     }
 }
 
+/* 576px */
 @media (max-width: 36em) {
     .main_tutor_content_network > article {
         flex-basis: 100%;
